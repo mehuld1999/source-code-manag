@@ -8,6 +8,8 @@ pipeline {
 	  steps {
 	         sh "mkdir mehul"
 			 sh "rm -rf mehul"
+		      echo "job is done"
+	                	      
 			 }
 			}
 		   }
